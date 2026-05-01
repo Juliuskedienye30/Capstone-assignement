@@ -55,6 +55,18 @@ func main() {
 
     fmt.Println("Sum is:", a+b)
 
+    
+    Screenshots 
+    ## 📸 Screenshot
+
+![App Screenshot](https://github.com/user-attachments/assets/2f82c8c7-458c-4c19-8a1a-95b7238b1aae)
+
+
+
+![App Screenshot](https://github.com/user-attachments/assets/c52314e8-0149-43fe-8a5e-829e91f08fd1)
+
+    
+    
     Full file structure
     
 ```go-toolkit/
