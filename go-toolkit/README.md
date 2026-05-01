@@ -54,6 +54,12 @@ func main() {
     fmt.Scanln(&b)
 
     fmt.Println("Sum is:", a+b)
+
+    Full file structure
+    go-toolkit/
+├── go.mod
+├── main.go
+└── README.md
 }
    AI Prompt Journal
 Prompt 1:
