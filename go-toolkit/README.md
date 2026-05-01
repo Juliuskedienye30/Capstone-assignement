@@ -1,36 +1,36 @@
-   ##Go Beginner Toolkit
-   #Title & Objective
+   ***Go Beginner Toolkit***
+   **Title & Objective**
 
-#Title: Getting Started with Go – A Beginner’s Toolkit
+**Title: Getting Started with Go – A Beginner’s Toolkit**
 
 This project demonstrates how to install Go and build a simple interactive CLI application that accepts user input and performs basic operations.
 
-  #Technology Overview
+  **Technology Overview**
 
-##Go (Golang) is a statically typed programming language developed by Google.
+**Go (Golang) is a statically typed programming language developed by Google.**
 It is widely used for backend development, cloud computing, and command-line tools.
 
 Real-world example: Tools like Docker and Kubernetes are built using Go.
 
-   ##System Requirements
+   System Requirements
 Linux OS
 Go (v1.22 or higher)
 Terminal
-   ##Installation & Setup
+   Installation & Setup
 sudo apt update
 sudo apt install golang-go
 go version
-   ##Running the Project
+   ***running the Project***
 go run main.go
    Minimal Working Example
 
-##This program:
+***This program:***
 
 Accepts user input (name)
 Displays a welcome message
 Performs a simple calculation
 
-##Code:
+ **Code:**
 
 package main
 
@@ -57,7 +57,7 @@ func main() {
 
     
     Screenshots 
-    ## 📸 Screenshot
+    📸 Screenshot
 
 ![App Screenshot](https://github.com/user-attachments/assets/2f82c8c7-458c-4c19-8a1a-95b7238b1aae)
 
@@ -67,7 +67,7 @@ func main() {
 
     
     
-    ##Full file structure
+    **Full file structure**
     
 ```go-toolkit/
 ├── go.mod
@@ -75,41 +75,41 @@ func main() {
 └── README.md```
 
 }
-  ###AI Prompt Journal
+  AI Prompt Journal
 Prompt 1:
 
-##How do I install Go on Linux?
+How do I install Go on Linux?
 
-##Reflection:
+Reflection:
 The AI helped me install Go quickly without needing multiple tutorials.
 
-##Prompt 2:
+**Prompt 2:**
 
 How to create a simple Go program that takes user input?
 
-##Reflection:
+**Reflection:**
 I learned how to use fmt.Scanln to accept input from users.
 
 Prompt 3:
 
-##Why am I getting "no such file or directory" in Go?
+**Why am I getting "no such file or directory" in Go?**
 
-Reflection:
+**Reflection:**
 Helped me understand directory navigation and file structure.
 
-     ##Common Errors & Fixes
-Error:
+     **Common Errors & Fixes**
+**Error:**
 stat main.go: no such file or directory
 
 Cause: Running command in wrong folder
 
-Fix:
+**Fix:**
 
 cd go-toolkit
-##Error:
+  Error:
 go: command not found
 
-##Fix:
+**Fix:**
 
 sudo apt install golang-go
     ##Testing & Iteration
@@ -120,11 +120,11 @@ Name: Lucia → Correct output
 Numbers: 5 and 3 → Output: 8
 Numbers: 10 and 20 → Output: 30
 
-##This confirmed that:
+**This confirmed that:**
 
 Input handling works correctly
 The logic is functioning as expected
-   ##References
+   **References**
 https://go.dev/doc/
 https://go.dev/doc/tutorial/getting-started
    Step 3: Save it
